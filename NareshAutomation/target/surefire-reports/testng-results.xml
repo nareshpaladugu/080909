@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Failed suite [Default suite]" duration-ms="23932" started-at="2017-07-30T22:42:43Z" finished-at="2017-07-30T22:43:07Z">
+    <groups>
+    </groups>
+    <test name="Default test(failed)" duration-ms="23932" started-at="2017-07-30T22:42:43Z" finished-at="2017-07-30T22:43:07Z">
+      <class name="com.nareshcompany.testscripts.FacebookTest">
+        <test-method status="PASS" signature="startUp()[pri:0, instance:com.nareshcompany.testscripts.FacebookTest@614c5515]" name="startUp" is-config="true" duration-ms="38" started-at="2017-07-30T17:42:43Z" finished-at="2017-07-30T17:42:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="testScriptSetup(java.lang.reflect.Method)[pri:0, instance:com.nareshcompany.testscripts.FacebookTest@614c5515]" name="testScriptSetup" is-config="true" duration-ms="6138" started-at="2017-07-30T17:42:43Z" finished-at="2017-07-30T17:42:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.nareshcompany.testscripts.FacebookTest.facebookTest() throws com.nareshcompany.utilities.TestFailedException,java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScriptSetup -->
+        <test-method status="PASS" signature="facebookTest()[pri:0, instance:com.nareshcompany.testscripts.FacebookTest@614c5515]" name="facebookTest" duration-ms="12912" started-at="2017-07-30T17:42:49Z" finished-at="2017-07-30T17:43:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- facebookTest -->
+        <test-method status="PASS" signature="shutDown(org.testng.ITestResult)[pri:0, instance:com.nareshcompany.testscripts.FacebookTest@614c5515]" name="shutDown" is-config="true" duration-ms="4870" started-at="2017-07-30T17:43:02Z" finished-at="2017-07-30T17:43:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=facebookTest status=SUCCESS method=FacebookTest.facebookTest()[pri:0, instance:com.nareshcompany.testscripts.FacebookTest@614c5515] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+        <test-method status="PASS" signature="endExecution()[pri:0, instance:com.nareshcompany.testscripts.FacebookTest@614c5515]" name="endExecution" is-config="true" duration-ms="8" started-at="2017-07-30T17:43:07Z" finished-at="2017-07-30T17:43:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endExecution -->
+      </class> <!-- com.nareshcompany.testscripts.FacebookTest -->
+    </test> <!-- Default test(failed) -->
+  </suite> <!-- Failed suite [Default suite] -->
+</testng-results>
